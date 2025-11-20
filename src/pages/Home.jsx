@@ -25,39 +25,40 @@ const Home = () => {
           pauseDuration={1500}
           showCursor={true}
           cursorCharacter="|"
-          textColors={["#fff"]}
+          textColors={["#326a93"]}
+          className="texttypebg"
         />
       </div>
 
       {/* Menu */}
       <div className="links flex gap-10 bg-transparent">
         <p className="group relative w-max">
-          <NavLink to="" className="text-md font-medium text-white">
+          <NavLink to="" className="text-md font-medium text-blue-400">
             Home
           </NavLink>
-          <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-blue-50 group-hover:w-3/6"></span>
-          <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-blue-50 group-hover:w-3/6"></span>
+          <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-blue-700 group-hover:w-3/6"></span>
+          <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-blue-700 group-hover:w-3/6"></span>
         </p>
         <p className="group relative w-max">
-          <NavLink to="about" className="text-md font-medium text-white">
+          <NavLink to="about" className="text-md font-medium text-blue-400">
             About Me
           </NavLink>
-          <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-blue-50 group-hover:w-3/6"></span>
-          <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-blue-50 group-hover:w-3/6"></span>
+          <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-blue-700 group-hover:w-3/6"></span>
+          <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-blue-700 group-hover:w-3/6"></span>
         </p>
         <p className="group relative w-max">
-          <NavLink to="project" className="text-md font-medium text-white">
+          <NavLink to="project" className="text-md font-medium text-blue-400">
             Portfolio
           </NavLink>
-          <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-blue-50 group-hover:w-3/6"></span>
-          <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-blue-50 group-hover:w-3/6"></span>
+          <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-blue-700 group-hover:w-3/6"></span>
+          <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-blue-700 group-hover:w-3/6"></span>
         </p>
         <p className="group relative w-max">
-          <NavLink to="contact" className="text-md font-medium text-white">
+          <NavLink to="contact" className="text-md font-medium text-blue-400">
             Contact
           </NavLink>
-          <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-blue-50 group-hover:w-3/6"></span>
-          <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-blue-50 group-hover:w-3/6"></span>
+          <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-blue-700 group-hover:w-3/6"></span>
+          <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-blue-700 group-hover:w-3/6"></span>
         </p>
       </div>
 
@@ -73,7 +74,7 @@ const Home = () => {
               <FontAwesomeIcon
                 icon={faGithub}
                 size="2x"
-                className="transition-transform duration-200 hover:-translate-y-1 hover:scale-110"
+                className="transition-transform duration-200 hover:-translate-y-1 hover:scale-110 hover:text-black"
               />
             </NavLink>
           </li>
@@ -86,7 +87,7 @@ const Home = () => {
               <FontAwesomeIcon
                 icon={faLinkedin}
                 size="2x"
-                className="transition-transform duration-200 hover:-translate-y-1 hover:scale-110"
+                className="transition-transform duration-200 hover:-translate-y-1 hover:scale-110 hover:text-blue-400"
               />
             </NavLink>
           </li>
@@ -99,7 +100,7 @@ const Home = () => {
               <FontAwesomeIcon
                 icon={faInstagram}
                 size="2x"
-                className="transition-transform duration-200 hover:-translate-y-1 hover:scale-110"
+                className="transition-transform duration-200 hover:-translate-y-1 hover:scale-110 hover:bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600"
               />
             </NavLink>
           </li>
@@ -112,7 +113,7 @@ const Home = () => {
               <FontAwesomeIcon
                 icon={faFacebook}
                 size="2x"
-                className="transition-transform duration-200 hover:-translate-y-1 hover:scale-110"
+                className="transition-transform duration-200 hover:-translate-y-1 hover:scale-110 hover:text-blue-500"
               />
             </NavLink>
           </li>
