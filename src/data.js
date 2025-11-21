@@ -17,6 +17,19 @@ import Tools8 from "/assets/tools/github.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
 
+export const AboutMe = {
+  title: "Student & Programmer",
+  subtitle:
+    "Student of Gunadarma University Majoring in Management, faculty of Economics",
+  name: "Chivo Hifdz Addien Kurniawan",
+  birthday: "06 July 2007",
+  age: "18 Years Old",
+  email: "chivokurniawan01@gmail.com",
+  loc: "Indonesia",
+  job: "Student",
+  desc: "Hey there, I'm Chivo Hifdz Addien Kurniawan, just a student in Gunadarma University. I'm into software engineering because I'm chasing my dream of becoming a game developer. In high school, I'm also part of the science club, although we're more about getting ready for competitions than doing experiments. Still, being in the club has helped me learn more about science and boost my skills, which I hope will help me reach my future dreams.",
+};
+
 export const listTools = [
   {
     id: 1,
